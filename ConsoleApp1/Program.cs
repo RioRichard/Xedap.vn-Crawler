@@ -12,12 +12,14 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-            GetAttribute(GetDocument());
+            var doc = GetDocument();
+            GetAttribute(doc);
+            GetName(doc);
         }
 
         static HtmlDocument GetDocument()
         {
-            var url = "https://xedap.vn/shop/xe-dap-duong-pho-touring-giant-escape-3-banh-700c-2021/";
+            var url = "https://xedap.vn/shop/xe-dap-tre-em-youth-trinx-junior-1-0-disc-20-phanh-dia-banh-20-inches-2021/";
             var web = new HtmlWeb();
             return web.Load(url);
         }
@@ -45,6 +47,18 @@ namespace ConsoleApp1
                 Console.WriteLine("================================");
 
             }
+        }
+        static void GetName (HtmlDocument doc)
+        {
+            var title = doc.DocumentNode.SelectSingleNode("//h1[@class='product-title product_title entry-title']");
+            Console.WriteLine(title.InnerText);
+            
+            var price = doc.DocumentNode.SelectSingleNode("//span[@class='woocommerce-Price-amount amount']");
+            Console.WriteLine(price.InnerText);
+            var img = doc.DocumentNode.SelectSingleNode("//img[@class='wp-post-image skip-lazy']");
+            Console.WriteLine(img.GetAttributeValue("src",""));
+            var description = doc.DocumentNode.SelectSingleNode("//div[@id='tab-description']");
+            Console.WriteLine(description.InnerText);
         }
     }
 }
