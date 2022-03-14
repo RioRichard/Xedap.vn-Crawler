@@ -67,8 +67,64 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Image\" />
+    <Content Include="Image\16-inches-blue-600x600.jpg" />
+    <Content Include="Image\2100204223-Xe-Đạp-Đường-Phố-TOURING-LIV-FLOURISH-4-BÁNH-700C-2021-Pale-Mauve-XS-1427kg_11619_4-600x600.jpg" />
+    <Content Include="Image\2105001124-Xe-Đạp-Đường-Phố-TOURING-MOMENTUM-INEED-STREET-BÁNH-700C-2021-Dark-Red_12211_4-600x600.jpg" />
+    <Content Include="Image\2105001324-Xe-Đạp-Đường-Phố-TOURING-MOMENTUM-INEED-STREET-BÁNH-700C-2021-Blue_12212_4-600x600.jpg" />
+    <Content Include="Image\2131390021-850-1-600x600.jpg" />
+    <Content Include="Image\adore-fw-16-2022-plum-850-600x600.jpg" />
+    <Content Include="Image\Alight-2-dd-2021-Grayish-Blue.jpg" />
+    <Content Include="Image\alight-2-dd-disc-eucalyptus-my22-850-3-600x600.jpg" />
+    <Content Include="Image\alight-3-dd-disc-pistachio-2022-850-600x600.jpg" />
+    <Content Include="Image\ATX-2021-Vibrant-Blue-1-600x600.jpg" />
+    <Content Include="Image\Contend-1-2021-White-1-600x600.jpg" />
+    <Content Include="Image\contend-2-2022-black-600x600.jpg" />
+    <Content Include="Image\contend-3-cold-iron-2022-600x600.jpg" />
+    <Content Include="Image\contend-ar-3-2022-amber-glow-600x600.jpg" />
+    <Content Include="Image\escape-1-disc-2022-hematite-600x600.jpg" />
+    <Content Include="Image\escape-2-city-disc-2022-charcoal-600x600.jpg" />
+    <Content Include="Image\escape-2-disc-rosewood-850-600x600.jpg" />
+    <Content Include="Image\Escape-3-2021-Charcoal-1-600x600.jpg" />
+    <Content Include="Image\escape-3-2022-metallic-black-600x600.jpg" />
+    <Content Include="Image\fd-806-blue-fix-1-600x600.jpg" />
+    <Content Include="Image\FORBCB26-7036-climber-xam-vang-850-600x600.jpg" />
+    <Content Include="Image\FORX26-7036-FORNIX-X26-XÁM-VÀNG-1-600x600.jpg" />
+    <Content Include="Image\latte-26-2022-green-600x600.jpg" />
+    <Content Include="Image\MARWEA2633-5017-850-1.jpg" />
+    <Content Include="Image\propel-advanced-sl-1-disc-my22-limited-edition-850jpg-600x600.jpg" />
+    <Content Include="Image\roam-3-disc-2022-metal-600x600.jpg" />
+    <Content Include="Image\roam-4-disc-2021-black-600x600.jpg" />
+    <Content Include="Image\ROYRB1286-2009-850-600x600.jpg" />
+    <Content Include="Image\ROYRB12G4-3015-850-2-600x600.jpg" />
+    <Content Include="Image\ROYRB1617-3007-850-fix-600x600.jpg" />
+    <Content Include="Image\ROYRB16G4-3015-850-600x600.jpg" />
+    <Content Include="Image\Somings-lion-bird-red-SOMLB20-3020-600x600.jpg" />
+    <Content Include="Image\STIJY90316-7031-850-600x600.jpg" />
+    <Content Include="Image\talon-3-2021-black-850-1-1-600x600.jpg" />
+    <Content Include="Image\Talon-3-2022-amber-glow-850-600x600.jpg" />
+    <Content Include="Image\tcr-advanced-1-disc-pro-compact-2022-amber-glow-600x600.jpg" />
+    <Content Include="Image\tcr-advanced-pro-disc-frameset-2022-phantom-green-600x600.jpg" />
+    <Content Include="Image\TRIFREE10-3005-850-600x600.jpg" />
+    <Content Include="Image\TRIFREE20-3007-600x600.jpg" />
+    <Content Include="Image\TRILFB10-2009-850-600x600.jpg" />
+    <Content Include="Image\TRIM136-9023-́̀́850-1-600x600.jpg" />
+    <Content Include="Image\trinx-tx04-đen-xám-600x600.jpg" />
+    <Content Include="Image\Xe-Đạp-Đua-Đường-Trường-ROAD-GIANT-CONTEND-2-BÁNH-700C-2021_Contend_6351_4-600x600.jpeg" />
+    <Content Include="Image\Xe-Đạp-Đua-Đường-Trường-ROAD-GIANT-CONTEND-3-BÁNH-700C-2021_Xe-Đạp-Đua_6353_4-600x600.jpeg" />
+    <Content Include="Image\Xe-Đạp-Đua-Đường-Trường-ROAD-GIANT-PROPEL-ADVANCED-2-BÁNH-700C-2021_Propel_6360_4-600x600.jpg" />
+    <Content Include="Image\Xe-Đạp-Đua-Đường-Trường-ROAD-GIANT-PROPEL-ADVANCED-2-DISC-PHANH-ĐĨA-BÁNH-700C-2021_Propel_6361_4-600x600.jpg" />
+    <Content Include="Image\Xe-Đạp-Đua-Đường-Trường-ROAD-GIANT-TCR-ADVANCED-PRO-1-BÁNH-700C-2021_TCR_5994_4-600x600.jpg" />
+    <Content Include="Image\Xe-Đạp-Đường-Phố-TOURING-GIANT-FASTROAD-SL-2-PHANH-ĐĨA-BÁNH-700C-2021_FastRoad_5967_4-1-600x600.jpg" />
+    <Content Include="Image\Xe-Đạp-Đường-Phố-TOURING-GIANT-FASTROAD-SL-3-PHANH-ĐĨA-BÁNH-700C-2021_FastRoad_6436_4-600x600.jpg" />
+    <Content Include="Image\Xe-Đạp-Địa-Hình-MTB-GIANT-TALON-4-PHANH-ĐĨA-BÁNH-27-600x600.jpg" />
+    <Content Include="Image\xtc-jr-20-2021-pure-red-600x600.jpg" />
+    <Content Include="Image\YB0458261-850-1.jpg" />
+    <Content Include="Image\YB046482-850-600x600.jpg" />
+    <Content Include="Image\YB0476501-850-600x600.jpg" />
+    <Content Include="Image\YB0476514-850-600x600.jpg" />
+    <Content Include="Image\YB0517281-850.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
