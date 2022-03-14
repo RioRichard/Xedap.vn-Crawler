@@ -90,7 +90,7 @@ Create table [Product]
 	[Stock] Integer NULL,
 	[ImageURL] Varchar(256) NULL,
 	[IsDelete] Bit NULL,
-	[Description] Nvarchar(1024) NULL,
+	[Description] Nvarchar(4000) NULL,
 Primary Key ([IDProduct])
 ) 
 go
@@ -108,7 +108,7 @@ Create table [Attribute]
 (
 	[IDAttribute] Integer identity(1,1) NOT NULL,
 	[AttributeName] Nvarchar(64) NULL,
-	AttributeValue Nvarchar(64) NULL,
+	
 	[IsDelete] Bit NULL,
 Primary Key ([IDAttribute])
 ) 
@@ -118,6 +118,7 @@ Create table [ProductAttribute]
 (
 	[IDProduct] Integer foreign key references Product(IDProduct) NOT NULL,
 	[IDAttribute] Integer foreign key references Attribute([IDAttribute]) NOT NULL,
+	AttributeValue Nvarchar(400) NULL,
 Primary Key ([IDProduct],[IDAttribute])
 ) 
 go
@@ -161,15 +162,15 @@ Create table [ProductCart]
 Primary Key ([IDCart],[IDProduct])
 ) 
 go
-drop table ProductCart
-go
+--drop table ProductCart
+--go
 
 
-Set quoted_identifier on
-go
+--Set quoted_identifier on
+--go
 
 
-Set quoted_identifier off
-go
+--Set quoted_identifier off
+--go
 
 
